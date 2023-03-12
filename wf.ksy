@@ -43,7 +43,7 @@ types:
 
          - id: data
            type:
-              switch-on: head.name.name
+              switch-on: head.name.content
               cases:
                 '"REBOOT"': rebootdata
                 '"info"': infodata
@@ -57,7 +57,7 @@ types:
           type: u1
           if: is_type2
 
-        - id: name
+        - id: content
           type: strz
           size: "is_type2? 0xf: 0x10"
           encoding: ASCII

@@ -11,7 +11,7 @@ args = parser.parse_args()
 
 fw = FwWebUp.from_file(args.file)
 for s in fw.sections.section:
-    if s.head.name.name == "sysa_gzip":
+    if s.head.name.content == "sysa_gzip":
         dec = zlib.decompressobj(32 + zlib.MAX_WBITS)
         hdd = dec.decompress(s.data)
         with open(args.out, "wb") as fd:

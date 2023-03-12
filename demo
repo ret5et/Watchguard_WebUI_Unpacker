@@ -1,14 +1,12 @@
 #!/usr/bin/env python2
-
 import zlib
-from fw_web_up import FwWebUp
 import argparse
+from fw_web_up import FwWebUp
 from kaitaistruct import KaitaiStream
-
 
 parser = argparse.ArgumentParser()
 parser.add_argument('file', help='sysa-dl file')
-parser.add_argument("out", help="unpacked hdd ext file")
+parser.add_argument("out", help="unpacked hdd ext2 file")
 args = parser.parse_args()
 
 fw = FwWebUp.from_file(args.file)

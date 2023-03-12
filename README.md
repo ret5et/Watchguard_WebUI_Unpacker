@@ -1,6 +1,6 @@
 # Watchguard Fireware web update (Sysa-dl) file format
 
-+ wf.ksy contains Kaitai description of Watchguard Fireware web update file format.
++ wf.ksy contains [Kaitai](https://kaitai.io/) description of Watchguard Fireware web update file format.
 + demo.py demo example shows how we can parse this file format using Kaitai framework.
 ```
 ./demo.py M440.sysa-dl /tmp/hdd.ext2 #will extract firmware hdd ext2 file

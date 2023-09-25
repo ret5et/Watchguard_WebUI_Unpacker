@@ -1,4 +1,4 @@
-# Watchguard Fireware Web UI updates file unpacker
+# Watchguard Fireware Web UI update unpacker
 + unpack_watchguard is a tool that unpacks this file format (sysa-dl).
 + watchguard_sysa_dl.ksy contains [Kaitai](https://kaitai.io/) description of Watchguard Fireware web update file format.
 

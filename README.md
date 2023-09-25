@@ -3,7 +3,7 @@
 + watchguard_sysa_dl.ksy contains [Kaitai](https://kaitai.io/) description of Watchguard Fireware web update file format.
 
 ## Info
-This update format is used by WatchGuard Firebox firewalls. The unpacker has been tested on firmware for the M400 and M500 series.
+This update format is used by WatchGuard Firebox firewalls. The unpacker has been tested on firmware for the M400 and M500 series. An example of an update file can be found [here](https://software.watchguard.com/SoftwareDownloads?current=true&familyId=a2RF00000009S0FMAU)
 
 ## Example
 ```

@@ -1,14 +1,15 @@
 # Watchguard Fireware web update (Sysa-dl) file unpacker
-
 + unpack_watchguard is a tool that unpacks this file format.
 + watchguard_sysa_dl.ksy contains [Kaitai](https://kaitai.io/) description of Watchguard Fireware web update file format.
 
+## Info
+This update format is used by WatchGuard Firebox firewalls. The unpacker has been tested on firmware for the M400 and M500 series.
+
 ## Example
-
 ```
-./unpack_watchguard M440.sysa-dl /tmp/hdd.ext2 #will extract firmware hdd ext2 file
+./unpack_watchguard M440.sysa-dl /tmp/hdd.ext2
 ```
-
+## File struct viewer
 Also you can explore Sysa-dl by ksv ( kaitai struct visualizer)
 
 ```
